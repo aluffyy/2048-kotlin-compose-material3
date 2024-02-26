@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.Theme.AppTheme" parent="android:Theme.Material.Light" />
+    <style name="Base.Theme.AppTheme" parent="Platform.Theme.AppTheme">
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="Theme.AppTheme" parent="Base.Theme.AppTheme">
+    </style>
+    <style name="Theme.AppTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.AppTheme.Immerse" parent="Theme.AppTheme.NoActionBar">
+        <item name="android:navigationBarColor">@color/nav_bar_scrim</item>
+    </style>
+
+    <style name="Theme.AppTheme.Main" parent="Theme.AppTheme.Immerse">
+    </style>
+</resources>
